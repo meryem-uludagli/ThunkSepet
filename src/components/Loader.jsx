@@ -1,7 +1,9 @@
-import React from "react";
-
 const Loader = () => {
-  return <div>Loader</div>;
+  return (
+    <div className="my-20 flex justify-center">
+      <div className="loader"></div>
+    </div>
+  );
 };
 
 export default Loader;

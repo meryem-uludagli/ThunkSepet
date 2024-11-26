@@ -13,6 +13,6 @@ export const getRestaurants = () => {
       .then((res) =>
         dispath({ type: ActionTypes.REST_SUCCESS, payload: res.data })
       )
-      .catch(() => dispath({ type: ActionTypes.REST_ERROR, payload: err }));
+      .catch((err) => dispath({ type: ActionTypes.REST_ERROR, payload: err }));
   };
 };

@@ -6,12 +6,15 @@ import Header from "./components/Header";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { getRestaurants } from "./redux/actions/restActions";
+import { getCart } from "./redux/actions/basketActions";
 
 const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(getRestaurants());
+
+    dispatch(getCart());
   }, []);
   return (
     <BrowserRouter>
