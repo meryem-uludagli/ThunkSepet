@@ -461,7 +461,7 @@
       "title": "Izgara Somon",
       "price": 21.99,
       "photo": "https://picsum.photos/212",
-      "amount": 2
+      "amount": 1
     },
     {
       "id": "b226fbe0-0a84-4f20-b812-d27785ec7314",
@@ -471,6 +471,24 @@
       "price": 9.99,
       "photo": "https://picsum.photos/211",
       "amount": 6
+    },
+    {
+      "id": "72155120-6325-4b81-9890-867af243a2f5",
+      "productId": "1",
+      "category": "Deniz Ürünleri",
+      "title": "Izgara Somon",
+      "price": 45.99,
+      "photo": "https://picsum.photos/200",
+      "amount": 2
+    },
+    {
+      "id": "835cc003-94a4-4de6-a3d5-e3b9d445e91a",
+      "productId": "3",
+      "category": "Kebaplar",
+      "title": "Tavuk Kebabı",
+      "price": 17.99,
+      "photo": "https://picsum.photos/203",
+      "amount": 1
     }
   ]
 }

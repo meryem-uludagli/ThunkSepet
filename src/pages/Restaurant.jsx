@@ -4,7 +4,7 @@ import RestaurantProducts from "../components/RestaurantProducts";
 const Restaurant = () => {
   return (
     <div>
-      <div classNameshadow>
+      <div className="shadow">
         <div className="container">
           <RestaurantDetail />
         </div>
